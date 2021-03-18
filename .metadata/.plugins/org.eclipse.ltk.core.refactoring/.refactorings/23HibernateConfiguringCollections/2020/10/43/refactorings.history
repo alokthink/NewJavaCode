@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;hibernate.cfg.xml&apos; to &apos;24OneToOneMapping/src/com.resource&apos;&#x0D;&#x0A;- Original project: &apos;23HibernateConfiguringCollections&apos;&#x0D;&#x0A;- Destination element: &apos;24OneToOneMapping/src/com.resource&apos;&#x0D;&#x0A;- Original element: &apos;hibernate.cfg.xml&apos;" description="Copy file" destination="=24OneToOneMapping/src&lt;com.resource" element1="src/com/think/dto/hibernate.cfg.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1603546891248" units="0" version="1.0"/>
+</session>

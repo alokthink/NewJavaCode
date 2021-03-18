@@ -1,0 +1,506 @@
+#local
+#attachmentLocation =  D://THINK_ATTACHMENT//
+#20
+#attachmentLocation =  //home//THINK-CS//THINK_ATTACHMENT//
+#AWS
+attachmentLocation =  //mnt//THINK-CS//THINK_ATTACHMENT//
+
+order_item.order_status_0 = Order Placed 
+order_item.order_status_1 = Canceled - Nonpayment 
+order_item.order_status_2 = Canceled - Customer Request 
+order_item.order_status_3 = Canceled - Credit Card Not Authorized 
+order_item.order_status_4 = Canceled - Audit Information Problem 
+order_item.order_status_5 = Active / Shipping 
+order_item.order_status_6 = Complete 
+order_item.order_status_7 = Grace Period 
+order_item.order_status_8 = Suspend - Nonpayment 
+order_item.order_status_9 = Suspend - Temporary 
+order_item.order_status_10 = Hold for Payment 
+order_item.order_status_11 = Suspended - Delivery Problem 
+order_item.order_status_12 = Suspended - Distribution Problem 
+order_item.order_status_13 = Suspended - Audit Information Problem 
+order_item.order_status_14 = Canceled - Audit Information Problem 
+order_item.order_status_15 = Hold Until Fulfillment Date 
+order_item.order_status_16 = Suspended - Behavior 
+
+#- Behavior removed "back order" and "payment hold" "back order" status assumed if backord_qty non-zero "payment hold" status contained in payment_status renumbered and rearranged statuses from what they were in BTV's
+order_item.pay_status_0 = No Payment 
+order_item.pay_status_1 = Paid 
+order_item.pay_status_2 = Paid - Overpayment 
+order_item.pay_status_3 = Paid - Underpayment 
+order_item.pay_status_4 = Paid - Prorated 
+order_item.pay_status_5 = Partial Payment
+
+
+order_item.renewal_status_0 = Try to Renew
+order_item.renewal_status_1 = Don't try to Renew 
+order_item.renewal_status_2 = Auto-renewal 
+
+#Order Code Constant
+order_code.order_code_type_0 = Subscription
+order_code.order_code_type_1 = Single Copy 
+order_code.order_code_type_2 = Product
+order_code.order_code_type_3 = Electronic Document 
+order_code.order_code_type_4 = Basic Package 
+order_code.order_code_type_5 = Ad-hoc Package 
+order_code.order_code_type_6 = Pooled Package 
+order_code.order_code_type_7 = Quick Order 
+order_code.order_code_type_8 = Shipping  
+
+
+order_code.premium_0 = Cannot be Premium 
+order_code.premium_1 = Can be Premium 
+order_code.premium_2 = Premium Only 
+
+
+source_code.source_code_type_0 = Basic 
+source_code.source_code_type_1 = Package 
+source_code.source_code_type_2 = Dual 
+source_code.source_code_type_3 = Catalog 
+source_code.source_code_type_4 = Generic 
+source_code.source_code_type_5 = Shipping 
+
+#payment Related.
+payment.tran_type_desc_0 = Payment
+payment.tran_type_desc_1 = Cancel
+payment.tran_type_desc_2 = Refund
+payment.tran_type_desc_3 = Clear
+
+
+payment_satus.payment_clear_status_0 = Ready to Authorize
+payment_satus.payment_clear_status_1 = Authorized
+payment_satus.payment_clear_status_2 = Ready to Post
+payment_satus.payment_clear_status_3 = Cleared
+payment_satus.payment_clear_status_4 = Declined
+payment_satus.payment_clear_status_5 = Void
+payment_satus.payment_clear_status_6 = Ready to Process Refund
+payment_satus.payment_clear_status_7 = Waiting Authorization
+payment_satus.payment_clear_status_8 = Waiting Posting
+payment_satus.payment_clear_status_9 = BACS Unpaid Resubmit
+payment_satus.payment_clear_status_10 = Call For Authorization
+payment_satus.payment_clear_status_11 = Ready to Auth (Failsoft)
+payment_satus.payment_clear_status_12 = Authorized (Failsoft)
+
+Pay_form.Credit_card_1=Credit_Card
+Pay_form.Direct_debit_4=Direct debit
+Pay_form.Online_wallet_6=Online Wallet
+Pay_form.Gift_card_7=Gift card
+Pay_form.GPay_8=Google Pay
+Pay_form.Apay_9=APay
+
+
+payment_break.order_item_break_type_1 = Order Item 
+payment_break.order_item_break_type_2 = Tax 
+payment_break.order_item_break_type_3 = Delivery 
+payment_break.order_item_break_type_4 = Commission 
+
+
+payment.paybreak_type_0 = Regular
+payment.paybreak_type_1 = CMPE
+payment.paybreak_type_2 = DMPE
+payment.paybreak_type_3 = CMOE
+payment.paybreak_type_4 = DMOE
+payment.paybreak_type_4 = CMCD
+payment.paybreak_type_4 = DMCD
+
+#Billing Type
+billing_type_0 = Undefined
+billing_type_1 = Balance Due
+billing_type_2 = Installment Billing
+
+#Auto Payment Type
+auto_payment_0 = None 
+auto_payment_1 = Credit Card 
+auto_payment_2 = Direct Debit 
+
+#Repeating Type
+repeating_type_0 = Not an Automatically Repeating Job 
+repeating_type_1 = Repeat the same job under the same job_id 
+repeating_type_2 = Propagate a new job of the same kind into the job queue 
+
+#Drop Down for order filter
+order_filter_show_Paymet_0 = balance due
+order_filter_show_Paymet_1 = all
+
+order_filter_where_payment_0 = current customer
+order_filter_where_payment_1 = payer
+
+order_filter_is_the_payment_0 = recipient
+order_filter_is_the_payment_1 = bill to
+
+#payment Filter
+payment_filter_dropdown_0=Payments made by current customer 
+payment_filter_dropdown_1=Payments for current customer's order
+payment_filter_dropdown_2=Order
+payment_filter_dropdown_3=Most Recent
+
+term_1 = 1 Year 6 Issues
+term_2 = 1 Year 4 Issues
+term_3 = 1 Year 12 Issues
+term_4 = 1 Year 50 Issues
+term_5 = 1 Year 11 Issues
+term_6 = 1 Year Online
+term_7 = 1 Year 2 Issues
+term_14 =2 Year 4 Issues
+term_15 =1 Year 1 Issue
+term_16 =2 Year 2 Issues
+
+#journal Qty for Credit
+journal_qty_credit_account_0= No Account
+journal_qty_credit_account_1= Ordered
+journal_qty_credit_account_2= Deferred
+journal_qty_credit_account_3= Earned
+
+#journal Qty for Debit
+journal_qty_debit_account_0= No Account
+journal_qty_debit_account_1= Ordered
+journal_qty_debit_account_2= Deferred
+journal_qty_debit_account_3= Earned
+
+
+
+# Journal Deposit For Credit
+journal_deposit_credit_account_1= Accounts Receivable
+journal_deposit_credit_account_2= Cash
+journal_deposit_credit_account_3= Liability 
+journal_deposit_credit_account_4= Revenue
+
+# Journal Deposit For Debit
+journal_deposit_debit_account_1= Accounts Receivable
+journal_deposit_debit_account_2= Cash
+journal_deposit_debit_account_3= Liability 
+journal_deposit_debit_account_4= Revenue
+
+# journal posting_reference
+journal_deposit_posting_reference_0 = No Posting 
+journal_deposit_posting_reference_1 = Order Add
+journal_deposit_posting_reference_2 = Order Renewal
+journal_deposit_posting_reference_3 = Order Increase
+journal_deposit_posting_reference_4 = Order Decrease
+journal_deposit_posting_reference_5 = Prorate Increase
+journal_deposit_posting_reference_6 = Prorate Decrease
+journal_deposit_posting_reference_7 = Graced Earned
+journal_deposit_posting_reference_8 = Payment Add
+journal_deposit_posting_reference_9 = Payment Gain
+journal_deposit_posting_reference_10 = Payment Loss
+journal_deposit_posting_reference_11 = Payment Over
+journal_deposit_posting_reference_12 = Payment Under Paid
+journal_deposit_posting_reference_13 = Payment Reversal
+journal_deposit_posting_reference_14 = Payment Reversal Gain
+journal_deposit_posting_reference_15 = Payment Reversal Loss
+journal_deposit_posting_reference_16 = Refund Cancel
+journal_deposit_posting_reference_17 = Refund Cancel Gain
+journal_deposit_posting_reference_18 = Refund Cancel Loss
+journal_deposit_posting_reference_19 = Refund Over Payment
+journal_deposit_posting_reference_20 = Refund Over Payment Gain
+journal_deposit_posting_reference_21 = Refund Over Payment Loss
+journal_deposit_posting_reference_22 = Refund Reversal Overpayment
+journal_deposit_posting_reference_23 = Refund Reversal Overpayment Gain
+journal_deposit_posting_reference_24 = Refund Reversal Overpayment Loss
+journal_deposit_posting_reference_25 = Debit Memo Payment Loss
+journal_deposit_posting_reference_26 = Credit Memo Payment Gain
+journal_deposit_posting_reference_27 = Credit Memo Payment Loss
+journal_deposit_posting_reference_28 = Debit Memo Payment
+journal_deposit_posting_reference_29 = Debit Memo Payment Gain
+journal_deposit_posting_reference_30 = Debit Memo Payment Loss
+journal_deposit_posting_reference_31 = Credit Memo Payment Transfer
+journal_deposit_posting_reference_32 = Debit Memo Payment Transfer
+journal_deposit_posting_reference_33 = Payment Decline
+journal_deposit_posting_reference_34 = Earning Increase Adjustment Reconcile
+journal_deposit_posting_reference_35 = Grace Adjustment Reconcile
+journal_deposit_posting_reference_36 = Current Earnings Reconcile
+journal_deposit_posting_reference_37 = Reverse Earnings On Cancel Re
+journal_deposit_posting_reference_38 = Earnings No Refund Reconcile
+journal_deposit_posting_reference_39 = Cancel Credit Reconcile
+journal_deposit_posting_reference_40 = Reverse Credit Earnings On Ca
+journal_deposit_posting_reference_41 = Credit Memo Order
+journal_deposit_posting_reference_42 = Credit Memo Order Gain
+journal_deposit_posting_reference_43 = Credit Memo Order Loss
+journal_deposit_posting_reference_44 = Debit Memo Order
+journal_deposit_posting_reference_45 = Debit Memo Order Gain
+journal_deposit_posting_reference_46 = Debit Memo Order Loss
+journal_deposit_posting_reference_47 = Credit Memo Customer Deposit
+journal_deposit_posting_reference_48 = Credit Memo Customer Deposit Gain
+journal_deposit_posting_reference_49 = Credit Memo Customer Deposit Loss
+journal_deposit_posting_reference_50 = Debit Memo Customer Deposit
+journal_deposit_posting_reference_51 = Debit Memo Customer Deposit Gain
+journal_deposit_posting_reference_52 = Debit Memo Customer Deposit Loss
+journal_deposit_posting_reference_53 = Refund Transfer to Customer Deposit
+journal_deposit_posting_reference_54 = Refund Transfer to Customer Deposit Gain
+journal_deposit_posting_reference_55 = Refund Transfer to Customer Deposit Loss
+journal_deposit_posting_reference_56 = Refund of Customer Deposit
+journal_deposit_posting_reference_57 = Refund of Customer Deposit Gain
+journal_deposit_posting_reference_58 = Refund of Customer Deposit Loss
+journal_deposit_posting_reference_59 = Payment Add Canc. Ord.
+journal_deposit_posting_reference_60 = Order Issue Increase
+journal_deposit_posting_reference_61 = Order Issue Decrease
+journal_deposit_posting_reference_62 = Payment Add Canc. Ord. Gain
+journal_deposit_posting_reference_63 = Payment Add Canc. Ord. Loss
+journal_deposit_posting_reference_64 = Refund Reversal Cancel
+journal_deposit_posting_reference_65 = Refund Reversal Cancel Gain
+journal_deposit_posting_reference_66 = Refund Reversal Cancel Loss
+journal_deposit_posting_reference_67 = Reverse Payment Add Canc. Ord.
+journal_deposit_posting_reference_68 = Reverse Payment Add Canc. Ord. Gain
+journal_deposit_posting_reference_69 = Reverse Payment Add Canc. Ord. Loss
+journal_deposit_posting_reference_70 = Refund Cancel Clear
+journal_deposit_posting_reference_71 = Earning Decrease Adjustment Reconcile 
+journal_deposit_posting_reference_72 = Cancel Credit on Cancel
+journal_deposit_posting_reference_73 = Credit Memo Cust Deposit From Order
+journal_deposit_posting_reference_74 = Debit Memo Cust Deposit To Order
+journal_deposit_posting_reference_75 = Refund Supplemental
+journal_deposit_posting_reference_76 = Refund Supplemental Gain
+journal_deposit_posting_reference_77 = Refund Supplemental Loss
+journal_deposit_posting_reference_78 = Refund Reversal Supplemental
+journal_deposit_posting_reference_79 = Refund Reversal Supplemental Gain
+journal_deposit_posting_reference_80 = Refund Reversal Supplemental Loss
+journal_deposit_posting_reference_81 = Earnings At Fulfillment
+journal_deposit_posting_reference_82 = Rollback Earnings At Fulfillment
+
+#Service Filter
+service_filter_0 = ALL
+service_filter_1 = Customer
+service_filter_2 = Subscription
+service_filter_3 = Product
+service_filter_4 = Single Issue
+service_filter_5 = Electronic Document
+service_filter_6 = Package
+
+#Column Data type
+column_datatype_0 = Text
+column_datatype_1 = Integer
+column_datatype_2 = Numeric
+column_datatype_3 = Date
+column_datatype_4 = Unicode Text
+column_datatype_5 = Long Text
+column_datatype_6 = Long Unicode Text 
+
+#Table Enum
+table_enum_0 = Customer
+table_enum_1 = Customer Address
+table_enum_2 = Customer Prospect
+table_enum_3 = Order Item
+table_enum_4 = Payment
+table_enum_5 = Demographic
+table_enum_6 = Order Item Amount Break
+table_enum_7 = Cust. Addr. Distr.
+table_enum_8 = Subscrip
+table_enum_9 = Order Item Install
+table_enum_10 = Payment Account
+table_enum_11 = Service 
+
+#Process Method
+process_method_0 = Direct 
+process_method_1 = W/Mag
+
+#Action
+action_0 = Bill 
+action_1 = Suspend 
+action_2 = Cancel 
+
+#Send To
+send_to_0 =  Donor 
+send_to_1 = Recipient 
+
+#suspension_status
+suspension_status_0 = Inactive     
+suspension_status_1 = Active
+suspension_status_2 = Complete
+suspension_status_3 = Reinstated
+suspension_status_4 = Never Activated
+
+#serve_backlabels
+serve_backlabels_0 = false
+serve_backlabels_1 = true
+
+#suspended_order_status
+suspended_order_status_0 = Order Placed 
+suspended_order_status_1 = Canceled - Nonpayment 
+suspended_order_status_2 = Canceled - Customer Request 
+suspended_order_status_3 = Canceled - Credit Card Not Authorized 
+suspended_order_status_4 = Canceled - Audit Information Problem 
+suspended_order_status_5 = Active / Shipping 
+suspended_order_status_6 = Complete 
+suspended_order_status_7 = Grace Period 
+suspended_order_status_8 = Suspend - Nonpayment 
+suspended_order_status_9 = Suspend - Temporary 
+suspended_order_status_10 = Hold for Payment 
+suspended_order_status_11 = Suspended - Delivery Problem 
+suspended_order_status_12 = Suspended - Distribution Problem 
+suspended_order_status_13 = Suspended - Audit Information Problem 
+suspended_order_status_14 = Canceled - Audit Information Problem 
+suspended_order_status_15 = Hold Until Fulfillment Date 
+suspended_order_status_16 = Suspended - Behavior 
+
+
+#refund_status
+refund_status_0 = No Refund 
+refund_status_1 = Full Refund 
+refund_status_2 = Pro-rated Refund 
+refund_status_3 = Partial Refund 
+
+oc_type_0=Parent Node
+oc_type_1=Subscription OC
+oc_type_2=Product OC
+oc_type_3=Basic Package OC
+oc_type_4=Ad Hoc Package OC 
+oc_type_5=Pooled Package OC
+oc_type_6=Quick Order OC
+oc_type_7=Catalog OC
+oc_type_8=Ship OC 
+
+
+#subscrip_start_type
+subscrip_start_type_0 = Anytime Start 
+subscrip_start_type_1 = Volume Group Start 
+subscrip_start_type_2 = Controlled
+subscrip_start_type_3 = Date-based With Issues 
+subscrip_start_type_4 = Date-based No Issues 
+subscrip_start_type_5 = Time with Units 
+subscrip_start_type_6 = Units no Time 
+subscrip_start_type_7 = Package 
+
+#order_type
+order_type_0 = Undefined 
+order_type_1 = Agency Remits Net to Publishe 
+order_type_2 = Standing Order 
+order_type_3 = Regular Order 
+order_type_4 = Agency Remits Gross to Publis 
+order_type_5 = Rotated Copy Order 
+
+#ship_type
+ship_type_1 = Bulk label to group address 
+ship_type_2 = Bulk label to group rep address 
+ship_type_3 = Individual labels to group members 
+ship_type_4 = Individual labels to group address with member's names 
+ship_type_5 = Individual labels to group rep address with members' name 
+
+#new_group_member_action
+new_group_member_action_0 = Do not adjust active orders    
+new_group_member_action_2 = Adjust orders and send back copies 
+new_group_member_action_3 = Ask operator at order entry time 
+new_group_member_action_4 = Set order quantities based on a negotiated count 
+new_group_member_action_5 = Use default setting  
+
+#back_issue_ship_type
+back_issue_ship_type_0 = Bulk to Group Addr 
+back_issue_ship_type_1 = Bulk to Rep Addr 
+
+#oc_type
+oc_type_0 = Parent Node 
+oc_type_1 = Subscription  
+oc_type_2 = Product  
+oc_type_3 = Basic Package  
+oc_type_4 = Ad Hoc Package  
+oc_type_5 = Pooled Package  
+oc_type_6 = Quick Order  
+oc_type_7 = Catalog  
+oc_type_8 = Ship  
+
+#Add Kill status
+add_kill_status_0=Unverified
+add_kill_status_1=Verified
+
+#Add, Kill and Proposed Reasons
+reason_0 = New Order
+reason_1 = Backstart
+reason_2 = Reinstate
+reason_3 = Multiple Copy Change
+reason_4 = Customer Transfer
+reason_5 = Qualification Change
+reason_6 = Name Replacement
+reason_7 = Name/Title Inclusion
+reason_8 = Name Deletion
+reason_9 = Title-only Change
+reason_10 = Mass Add
+reason_11 = Cancel - Expire
+reason_12 = Cancel - Non-Payment
+reason_13 = Cancel - Request
+reason_14 = Cancel - Non-Verify
+reason_15 = Suspension
+reason_16 = Mass Kill - Expire
+reason_17 = Mass Kill - Non-Payment
+reason_18 = Mass Kill - Request
+reason_19 = Mass Kill - Non-Verify
+reason_20 = Renewal (only to negate a kill)
+reason_21 = Rotation
+reason_22 = Unknown
+reason_23 = Address Change
+reason_24 = Distribution Change
+reason_25 = Renewal (with missed issues)
+reason_255 = Null
+
+#unit_excess 
+unit_excess_0 = No
+unit_excess_1 = Pay Now 
+unit_excess_2 = Pay Later 
+ 
+#distributor_report_type
+distributor_report_type_0 = Start/Stop
+distributor_report_type_1 = Subscriber Listing
+distributor_report_type_2 = Label
+distributor_report_type_3 = Undeliverable
+
+#file_type
+file_type_0 = Fixed
+file_type_1 = Variable
+
+#report_format
+report_format_0 = Report
+report_format_1 = File
+
+#Sort Direction
+direction_0=Ascending
+direction_1=Descending
+
+#transmission_mode
+transmission_mode_0 = Fax
+transmission_mode_1 = Modem
+transmission_mode_2 = E-mail
+
+##EMAIL AUTHORIZATION : Business Process
+##0=TE_NONE
+1=0x0200
+2=0x0400
+3=0x0800
+4=0x1000
+5=0x2000
+6=0x4000
+7=0x8000
+8=0x000100
+9=0x000200
+10=0x000400
+##11=TE_JOB_COMPLETED
+12=0x001000
+13=0x002000
+14=0x004000
+15=0x008000
+16=0x00000100
+17=0x00000200
+18=0x00000400
+19=0x00000800
+20=0x00001000
+21=0x00002000
+22=0x00004000
+23=0x00008000
+24=0x0000000100
+25=0x0000000200
+26=0x0000000400
+27=0x0000000800
+28=0x0000001000
+29=0x0000002000
+30=0x0000004000
+31=0x0000008000
+32=0x000000000100
+33=0x000000000200
+34=0x000000000400
+35=0x000000000800
+36=0x000000001000
+37=0x000000002000
+38=0x000000004000
+##39=TE_LAST
+# table: order_item_acc_break
+acc_break_type_0 = Net Amount 
+acc_break_type_1 = Tax Amount 
+acc_break_type_2 = Delivery Amount 
+acc_break_type_3 = Commission Amount
+

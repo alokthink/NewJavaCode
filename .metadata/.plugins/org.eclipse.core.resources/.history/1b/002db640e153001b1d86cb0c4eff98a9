@@ -1,0 +1,33 @@
+package com.balaji.travels;
+
+import java.io.PrintStream;
+import java.sql.*;
+import javax.servlet.Servlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
+
+public class ConnectionPool extends HttpServlet
+    implements Servlet
+{
+
+    public ConnectionPool()
+    {
+    }
+
+    public static Connection getConnection()
+    {
+        try
+        {
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/travels", "root", "1995");
+            if(con != null)
+                System.out.println("Connection Pool Database Connection Success");
+        }
+        catch(ClassNotFoundException classnotfoundexception) { }
+        catch(SQLException sqlexception) { }
+        return con;
+    }
+
+    private static Connection con = null;
+
+}

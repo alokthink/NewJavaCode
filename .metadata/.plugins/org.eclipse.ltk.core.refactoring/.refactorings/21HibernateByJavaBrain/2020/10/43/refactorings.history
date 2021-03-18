@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;hibernate.cfg.xml&apos; to &apos;22HibernateEmbeddedObject/src/com.think.dto&apos;&#x0D;&#x0A;- Original project: &apos;21HibernateByJavaBrain&apos;&#x0D;&#x0A;- Destination element: &apos;22HibernateEmbeddedObject/src/com.think.dto&apos;&#x0D;&#x0A;- Original element: &apos;hibernate.cfg.xml&apos;" description="Copy file" destination="=22HibernateEmbeddedObject/src&lt;com.think.dto" element1="src/hibernate.cfg.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1603265888573" units="0" version="1.0"/>
+</session>

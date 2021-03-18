@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+<hibernate-mapping>
+	<class name="bean.Employee" table="employee">
+		<id name="eid" column="eid" />
+		<property name="ename" column="ename" />
+		<property name="email" column="email" />
+		<property name="empCode" />
+		<property name="salary" />
+		<property name="department" not-null="true" />
+	</class>
+</hibernate-mapping>

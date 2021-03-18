@@ -1,0 +1,242 @@
+# Source Code Type
+
+source_code_type_0 = Basic
+source_code_type_1 = Package
+source_code_type_2 = Dual
+source_code_type_3 = Catalog
+source_code_type_4 = Generic
+source_code_type_5 = Shipping
+
+# Active Value
+
+active_0 = InActive
+active_1 = Active
+
+
+# Upsell-Cross sell Type
+
+upsell_type_0 = Upsell
+upsell_type_1 = Cross-sell
+
+# Upsell Condition
+
+upsell_condition_0 = Always
+upsell_condition_1 = Active Order
+upsell_condition_2 = No Previous 
+upsell_condition_3 = Expired Order
+# Calendar Campaign Value
+
+#Begin Month
+begin_month_1 = January 
+begin_month_2 = February 
+begin_month_3 = March 
+begin_month_4 = April 
+begin_month_5 = May
+begin_month_6 = June 
+begin_month_7 = July 
+begin_month_8 = August 
+begin_month_9 = September 
+begin_month_10 = October 
+begin_month_11 = November 
+begin_month_12 = December 
+
+#End Month
+end_month_1 = January 
+end_month_2 = February 
+end_month_3 = March 
+end_month_4 = April 
+end_month_5 = May
+end_month_6 = June 
+end_month_7 = July 
+end_month_8 = August 
+end_month_9 = September 
+end_month_10 = October 
+end_month_11 = November 
+end_month_12 = December 
+
+# Order Code Table
+
+#Audit Qual Category
+
+audit_qual_category_0 = Qualified Paid 
+audit_qual_category_1 = Qualified Free 
+audit_qual_category_2 = Non-qualified Paid 
+audit_qual_category_3 = Non-qualified Free 
+
+#Credit Card Process
+credit_card_process_0 = NA 
+credit_card_process_1 = Auth, ship Settle 
+credit_card_process_2 = Auth then Settle 
+credit_card_process_3 = Auth and Settle  
+
+# Item Type
+
+item_type_0 = Goods 
+item_type_1 = Services 
+
+#Order Code Type
+
+order_code_type_0 = Subscription 
+order_code_type_1 = Single Copy 
+order_code_type_2 = Product 
+order_code_type_3 = Electronic Document 
+order_code_type_4 = Basic Package 
+order_code_type_5 = Ad-hoc Package 
+order_code_type_6 = Pooled Package 
+order_code_type_7 = Quick Order 
+order_code_type_8 = Shipping 
+
+# Start Type Value
+
+start_type_0 = Anytime Starts 
+start_type_1 = Volume Group Starts 
+start_type_2 = Date Based with Issues 
+start_type_3 = Date Based no Issues 
+start_type_4 = Date Based with Units 
+start_type_5 = Unit Based no Time 
+
+# Premium value
+
+premium_0 = Cannot be Premium
+premium_1 = Can be Premium
+premium_2 = Premium Only 
+
+# Time Unit Options
+
+time_unit_options_0 = None 
+time_unit_options_1 = Rental 
+time_unit_options_2 = Roll-over 
+
+# Trial Type
+
+trial_type_0 = None
+trial_type_1 = Continuous
+trial_type_2 = Soft
+trial_type_3 = Hard
+
+# Unit Excess
+
+unit_excess_0 = No 
+unit_excess_1 = Pay Now 
+unit_excess_2 = Pay Later
+
+# Revenue Method Value
+
+revenue_method_0 = Issue-based
+revenue_method_1 = Time-based 
+revenue_method_2 = Unit-based 
+
+# Auto Renewal Value
+
+auto_renewal_0 = False
+auto_renewal_1 = True
+
+#taxable
+taxable_0 = False
+taxable_1 = True
+
+# perpetual_order
+perpetual_order_0 = False
+perpetual_order_1 = True
+
+# disallow_install_billing
+disallow_install_billing_0 = False
+disallow_install_billing_1 = True
+
+# Installment Billing Only
+installment_billing_only_0 = False
+installment_billing_only_1 = True
+
+# discount card unit_type
+unit_type_0 = Issues/Units 
+unit_type_1 = Days 
+unit_type_2 = Pkg Items 
+
+# order class (description)
+#new_group_member_action
+new_group_member_action_0 = Do not adjust active orders 
+new_group_member_action_2 = Adjust orders and send back copies 
+new_group_member_action_3 = Ask operator at order entry time 
+new_group_member_action_4 = Set order quantities based on a negotiated count 
+new_group_member_action_5 = Use default setting 
+
+#sample_issue_selection
+sample_issue_selection_0 = Immediate previous issue in stock
+sample_issue_selection_1 = Specify with order code in setups
+sample_issue_selection_2 = Issue from previous volume  
+
+#issue_format
+issue_format_0 = Arabic Numerals 
+issue_format_1 = Small Roman Numerals
+issue_format_2 = Large Roman Numerals
+issue_format_3 = Lower Case Letters
+issue_format_4 = Upper Case Letters
+
+#volume_format (pub)
+volume_format_0 = Arabic Numerals 
+volume_format_1 = Small Roman Numerals
+volume_format_2 = Large Roman Numerals
+volume_format_3 = Lower Case Letters
+volume_format_4 = Upper Case Letters
+
+#calendar_unit (pub)
+calendar_unit_0 = Day(s)  
+calendar_unit_1 = Week(s)
+calendar_unit_2 = Month(s)
+calendar_unit_3 = Year(s)
+
+#on_calendar_unit 
+on_calendar_unit_0 = Day of the Week  
+on_calendar_unit_1 = Day of the Month
+on_calendar_unit_2 = Day of the Year
+on_calendar_unit_3 = Week of the Month
+on_calendar_unit_4 = Week of the Year
+on_calendar_unit_5 = Month of the Year
+
+#logical_start(SubscriptionDef)
+logical_start_0 = January 1st 
+logical_start_1 = February 1st 
+logical_start_2 = March 1st 
+logical_start_3 = April 1st 
+logical_start_4 = May 1st 
+logical_start_5 = June 1st 
+logical_start_6 = July 1st 
+logical_start_7 = August 1st 
+logical_start_8 = September 1st 
+logical_start_9 = October 1st 
+logical_start_10 = November 1st 
+logical_start_11 = December 1st 
+logical_start_12 = 1st day of Issue Month 
+
+#forced_expire_month(SubscriptionDef)
+forced_expire_month_0 = January 
+forced_expire_month_1 = February 
+forced_expire_month_2 = March 
+forced_expire_month_3 = April 
+forced_expire_month_4 = May 
+forced_expire_month_5 = June  
+forced_expire_month_6 = July  
+forced_expire_month_7 = August 
+forced_expire_month_8 = September 
+forced_expire_month_9 = October 
+forced_expire_month_10 = November 
+forced_expire_month_11 = December 
+forced_expire_month_12 = N/A 
+
+#range_type(cancel_policy)
+range_type_0 = Days 
+range_type_1 = Issues 
+
+#is_ddp
+is_ddp_0 = false
+is_ddp_1 = true
+
+#state_break
+state_break_0 = false
+state_break_1 = true
+
+#generated
+generated_0 = false
+generated_1 = true
+
+

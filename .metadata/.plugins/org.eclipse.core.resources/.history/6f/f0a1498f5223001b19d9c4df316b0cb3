@@ -1,0 +1,45 @@
+
+public class Frogram3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stu
+////		array: 1 2 3 4 5 6 7
+////		output: 7 1 6 2 5 3 4
+//		int min=Integer.MIN_VALUE;
+//		
+//		int [] arr= {1,2,3,4,5,6,7};
+//		int [] arr1=new int[7];
+//		int j=arr.length-1;
+//		int k=0;
+//		for(int i=0;i<5;i++) {
+//			arr1[k]=arr[j-i];
+//			arr1[k+1] =arr[i];
+//			k++;
+//		
+//		}
+//		
+//		for(int i=0;i<arr1.length;i++) {
+//		
+//         System.out.print(arr1[i]);
+//	}
+		
+		
+//		array: 1 2 3 4 5
+//		K: 3
+//		output: 3 2 1 5 4
+		
+		int [] arr2= {1,2,3,4,5};
+		StringBuilder b=new StringBuilder();
+		int m=3;
+		for(int i=m-1;i>=0;i--) {
+			b.append(arr2[i]);
+		}
+		for(int n=arr2.length-1;n>=m;n--) {
+			b.append(arr2[n]);	
+		}
+		
+		System.out.println(b);
+			
+
+}
+}

@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+E:\WorkFromHomeThink\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2580245394.index
+2420477058.index
+4027746115.index
+3984211419.index
+1778955218.index
+13916225.index
+3809701695.index
+1967410342.index

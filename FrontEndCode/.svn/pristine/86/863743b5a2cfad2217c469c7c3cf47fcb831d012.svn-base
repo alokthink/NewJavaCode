@@ -1,0 +1,141 @@
+#Process Type
+process_type_0 = Old Accounting Reconciliation
+process_type_1 = Audit Galley
+process_type_2 = Audit Paragraph Report
+process_type_3 = Backlabel
+process_type_4 = Billing
+process_type_5 = Customer Address Update
+process_type_6 = Label
+process_type_7 = List Extract
+process_type_8 = Mass Add
+process_type_9 = Mass Change
+process_type_10 = Mass Kill
+process_type_11 = Payment
+process_type_12 = Refund
+process_type_13 = Pending Transaction
+process_type_14 = Product Fulfillment
+process_type_15 = Promotion
+process_type_16 = Renewal
+process_type_17 = Report
+process_type_18 = Suspend/Reinstate
+process_type_19 = Start/Stop
+process_type_20 = Volume Update
+process_type_21 = BACS DD
+process_type_22 = Cleanup
+process_type_23 = Installment Notices
+process_type_24 = Upd. Ord. Stat.
+process_type_25 = Unused
+process_type_26 = Accounting Reconciliation
+process_type_27 = Customer Deposit Reconciliation
+process_type_28 = On/Off
+process_type_29 = Conversion Journal Posting
+process_type_30 = Label Estimate
+process_type_31 = ICS Payment Batch Listener
+process_type_32 = BACS Billing
+process_type_33 = BACS AUDDIS
+process_type_34 = Invoice ID Generator
+process_type_37 = Net Doc Ref Update
+process_type_38 = Credit Card Expiry Notify
+process_type_39 = Credit Card Token Refresh
+process_type_40 = Auto-Renewal Notify
+process_type_41 = Email/Event Queue
+
+#Driver Type
+driver_type_0 = Manual
+driver_type_1 = ICVerify 
+driver_type_2 = ICVerify UK
+driver_type_3 = BACS Direct Debit
+driver_type_4 = Online-Pluggable Component
+driver_type_5 = Batch-Pluggable Component  
+
+#Renewal Type
+renewal_type_0 = By Issue/Unit
+renewal_type_1 = By Volume Group
+renewal_type_2 = Re equal
+
+#Effort Type
+ effort_type_0 = N/A
+ effort_type_1 = Issues/Units Left
+ effort_type_2 = Issues/Units Left with Expire 
+ effort_type_3 = At Birth 
+ effort_type_4 = By Package Expire Date 
+ effort_type_5 = from Long Qual. date 
+ effort_type_6 = from Short Qual. date 
+ effort_type_7 = By Subscription Expire Date 
+ effort_type_8 Exact Issues/Units Left 
+ 
+#Billing Action
+action_0 = Bill 
+action_1 = Suspend 
+action_2 = Cancel 
+
+#Process Method
+process_method_0 = Direct
+process_method_1 = W/Mag
+
+#Send To
+send_to_0 = Donor
+send_to_1 = Recipient 
+
+#output_type
+output_type_0 = Label
+output_type_1 = Renewal 
+output_type_2 = Billing 
+output_type_3 = Refund 
+output_type_4 = List Extract 
+output_type_5 = Product Fulfillment 
+output_type_6 = Pick List 
+output_type_7 = Payment 
+output_type_8 = Report 
+output_type_9 = Accounting Reconciliation 
+output_type_10 = Installment Plan 
+output_type_11 = Audit Reports 
+output_type_12 = Start/Stop 
+output_type_13 = Unused 
+output_type_14 = Installment Notice 
+output_type_15 = Promotion 
+output_type_16 = Repeating Job 
+output_type_17 = Auddis 
+
+#output_mode
+output_mode_0 = Print 
+output_mode_1 = File 
+output_mode_2 = Window 
+output_mode_3 = Unused 
+
+#oc_type
+oc_type_0= Parent Node 
+oc_type_1= Subscription OC 
+oc_type_2= Product OC 
+oc_type_3= Basic Package OC 
+oc_type_4= Ad Hoc Package OC 
+oc_type_5= Pooled Package OC 
+oc_type_6= Quick Order OC 
+oc_type_7= Catalog OC 
+oc_type_8= Ship OC 
+
+#renewal_type
+renewal_type_0 = By Issue/Unit 
+renewal_type_1 = By Volume Group
+renewal_type_2 = Requal 
+
+#effort_type
+effort_type_0 = N/A
+effort_type_1 = Issues/Units Left
+effort_type_2 = Issues/Units Left with Expire
+effort_type_3 = At Birth
+effort_type_4 = By Package Expire Date
+effort_type_5 = From Long Qual. date
+effort_type_6 = From Short Qual. date
+effort_type_7 = By Subscription Expire Date
+effort_type_8 = Exact Issues/Units Left 
+
+#status
+status_0 = ready 
+status_1 = on hold 
+status_2 = running 
+status_3 = paused 
+status_4 = done 
+status_5 = deleting 
+status_6 = died 
+status_7 = killed

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd"> 
+ <hibernate-mapping>
+  <class name="bean.Vote" table="vote">
+  <id name="vtid" >
+   <generator class="foreign">
+    <param name="property">voter</param>
+   </generator>
+   </id>
+  <property name="pname" />
+  <property name="cdate" />
+  <one-to-one name="voter" class="bean.Voter"/>
+  </class>
+ </hibernate-mapping>
